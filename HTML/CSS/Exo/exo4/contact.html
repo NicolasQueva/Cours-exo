@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./assets/image/logo_afpi.jpg" alt="Logo Afpi vintage">
+        <h1>Bienvenue sur le site perso de "Nicolas Queva"</h1>
+        <h3>En formation a m2i Formation</h3>
+        <nav>
+            <a href="./index.html">Accueil</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./CV.html">CV</a>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Vos infos</legend>
+                <input type="radio" name="infor" id="infor">
+                <label for="infor">Mr.</label>
+                <input type="radio" name="infor" id="infor2">
+                <label for="infor">Mme.</label>
+                <input type="radio" name="infor" id="infor3">
+                <label for="infor">Mlle.</label>
+                <br>
+                <label for="Nom">Nom : </label>
+                <input type="text" name="Nom">
+                <label for="Prenom">Prenom : </label>
+                <input type="text" name="Prenom">
+            </fieldset>
+            <fieldset>
+                <legend>Votre mail</legend>
+                <input type="email" name="email" id="mail">
+            </fieldset>
+            <fieldset>
+                <legend>Objet du message :</legend>
+                <input type="text" name="omes" id="omes">
+            </fieldset>
+            <fieldset>
+                <legend>Votre Message :</legend>
+                <textarea name="Mess" id="Mess" cols="50" rows="10"></textarea>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

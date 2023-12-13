@@ -1,0 +1,29 @@
+/* Je rajoute un commentaire */
+/* Selecteur d'identifiant 0100 */
+#para1 {
+
+    color: green;
+
+}
+
+/* Selecteur d'identifiant 0001 */
+/* le !important a la priortité absolu */
+p {
+    color: blue!important;;
+}
+
+/* selecteur d'identifiant 0010 */
+.rouge {
+    color: red;
+}
+
+.centrer {
+
+    text-align: right;
+
+}
+
+#para2 {
+
+    text-align: center;
+}

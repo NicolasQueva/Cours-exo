@@ -1,0 +1,59 @@
+body, html{
+    margin: 0;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+h2{
+    margin: 10px;
+}
+
+p{
+    margin: 2px;
+}
+
+.heightf {
+    height: 600px;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+#flex-box1 {
+    flex: 1;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+#flex-box2 {
+    flex: 4;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+
+#flex-box3 {
+    flex: 1;
+    background-color: chocolate;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+#flexfooter {
+    justify-content: center;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}

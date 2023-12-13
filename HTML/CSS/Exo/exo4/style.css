@@ -1,0 +1,27 @@
+/* :root{
+
+
+} */
+
+body, html{
+    margin: 4px;
+}
+
+.header{
+
+    display: flex;
+    background-color: orangered;
+}
+.titre{
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nav1{
+    background-color: teal;
+
+}
+img{
+border-radius: 3000px;
+
+}

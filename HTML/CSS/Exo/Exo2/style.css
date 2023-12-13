@@ -1,0 +1,50 @@
+* {
+    color: white;
+    text-align: center;
+    background-color: grey;
+    vertical-align: middle;
+}   
+
+h1 {
+    margin-bottom: 1em;
+}
+
+h2{
+margin-bottom: 2em;
+}
+
+.ptest {
+    display: inline;
+    margin-bottom: 1em;
+}
+
+.lien:hover {
+
+    color: red;
+
+}
+
+.lien {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-bottom: 0.5em;
+}
+
+img {
+    
+    vertical-align: middle;
+    height: 400px;
+    width: auto;
+    margin: 10px    
+}
+
+table{
+    border-collapse: collapse ;
+    border: solid;
+    margin: 0 auto;
+}
+
+th, td{
+    border: 2px solid white;
+}

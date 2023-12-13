@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulaire</h1>
+    </header>
+    <main>
+        <a href="./index.html">index</a>
+        <hr>
+        <form action="mailto:toto@toto.com" method="post">
+            <fieldset>
+                <legend>Mon formulaire</legend>
+                <label for="demotexte">Texte : </label>
+                <input type="text" placeholder="Entrez du texte ..." name="demotexte" id="demotexte" required>
+                <br>
+                <label for="demonumber">Nombre : </label>
+                <input type="number" placeholder="Entrez un nombre" name="demonumber" id="demonumber" required>
+                <br>
+                <label for="demomdp">Mot de passe : </label>
+                <input type="password" name="demomdp" id="demomdp" required>
+                <br>
+                <label for="demodate">Date : </label>
+                <input type="date" name="demodate" id="demodate" required>
+                <br>
+                <label for="demoemail">Email : </label>
+                <input type="email" placeholder="Entrez Email" name="demoemail" id="demoemail" required>
+            </fieldset>
+            <fieldset>
+                <legend>Suite Formulaire</legend>
+                <label for=""> Choix de type Oui/Non </label>
+                <input type="checkbox">
+                <br>
+                <label for="radioexemple">Choix multiple</label>
+                <input type="radio" name="radioexemple" value="0">
+                <label for="radioexemple-1">A</label>
+                <input type="radio" name="radioexemple" value="1">
+                <label for="radioexemple-2">B</label>
+                <input type="radio" name="radioexemple" value="10">
+                <label for="radioexemple-3">C</label>
+                <input type="radio" name="radioexempletest" value="10">
+                <label for="radioexemple-3">D</label>
+                <input type="radio" name="radioexempletest" value="10">
+                <label for="radioexemple-3">E</label>
+            </fieldset>
+            <fieldset>
+                <legend>Choix de type select</legend>
+                <label for="">Choix select</label>
+                <select name="select-exemple" id="select-exemple">
+                    <optgroup label="option groupe 1">
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </optgroup>
+                    <optgroup label="option groupe 2">
+                        <option value="4">Option 4</option>
+                        <option value="5">Option 5</option>
+                        <option value="6">Option 6</option>
+                    </optgroup>
+                    <optgroup label="option groupe 3">
+                        <option value="7">Option 7</option>
+                        <option value="8">Option 8</option>
+                        <option value="9">Option 9</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Message :</legend>
+                <label for="form-textarea">Votre message : </label>
+                <br>
+                <textarea name="comment" id="form-textarea" cols="50" rows="10" ></textarea>
+            </fieldset>
+            <input type="submit" value="Envoyer">
+            <button>Valider</button>
+            <button type="reset">Annuler</button>
+
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

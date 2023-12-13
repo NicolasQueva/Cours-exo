@@ -1,0 +1,38 @@
+
+:root{
+    --blue: blue;
+    --beige: beige;
+    --black: black;
+}
+
+html,body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 35px;
+}
+
+main{
+    display: flex;
+}
+
+.column {
+    padding: 10px;
+    height: 500px;
+}
+.column.side{ 
+    background-color: var(--beige);
+    flex: 1;
+  }
+.column.mid{
+    background-color:var(--blue) ;
+    flex: 3;
+}
+footer {
+    background-color: var(--black);
+    text-align: center;
+    color: white;
+    padding: 3px;
+}

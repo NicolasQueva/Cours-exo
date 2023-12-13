@@ -1,0 +1,24 @@
+* {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 33px;
+}
+
+.fontperso {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fontgoogle {
+    font-family: 'Kalam', sans-serif;
+}
+
+.fontprop {
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgba(23, 199, 100, 0.929);
+    text-decoration: underline;
+    text-align: justify;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+
+}

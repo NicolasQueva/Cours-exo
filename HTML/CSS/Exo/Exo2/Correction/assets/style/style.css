@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Kalam&family=Roboto:wght@400;900&display=swap');
+
+* {
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+}
+
+h2 {
+    margin-bottom: 40px ;
+}
+
+a:hover {
+    color: orangered
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+img {
+
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+}
+table{
+    border-collapse: collapse;
+    margin:0 auto;
+}
+th, td{
+    border: 2px solid white;
+    padding: 2px;
+}
