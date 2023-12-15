@@ -34,6 +34,6 @@ console.log(nb1++);
 //Incrémentation puis affichage de la valeur
 console.log(++nb1);
 //equivalent a nb1 = nb1 * nb2 
-console.log(nb1 *= nb2); //Multiplication combiné
+console.log(nb1 *= nb2); //Multiplication combinée
 //Idem mais /
-console.log(nb1/=nb2); //Division combiné
+console.log(nb1/=nb2); //Division combinée 
