@@ -1,12 +1,12 @@
-const nbrs = document.querySelector(".nbrs");
-const calc = document.querySelector(".calc");
-const nbrsa = document.querySelector(".nbrsa");
-let nbr1 = Number(prompt("Veuillez saisir un nombre"))
-let nbr2 = Number(prompt("Veuillez saisir un second nombre"))
-console.log(typeof(nbr1));
-console.log(nbr1);
-console.log(typeof(nbr2));
-console.log(nbr2);
-nbrs.innerHTML = "Vous avez saisi :" + nbr1
-nbrsa.innerHTML = "Vous avez saisi :" + nbr2
-calc.innerHTML = nbr1 + nbr2
+const calcul = document.querySelector(".calc")
+
+let nbr1, nbr2, addition, affichage
+nbr1 = Number(prompt("Entrez un premier nombre : "))
+nbr2 = Number(prompt("Entrez un second nombre : "))
+addition = nbr1 + nbr2
+
+affichage = `<p>Le premier nombre entré est : ${nbr1}</p>`
+affichage += `<p>Le second nombre entré est : ${nbr2}</p>`
+affichage += `<p>L'addition des deux nombres est : ${addition}</p>`
+
+calcul.innerHTML = affichage
