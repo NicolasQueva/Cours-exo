@@ -1,4 +1,4 @@
-
+// Pour remplacer rapidement les valeurs => ctrl + h
 const affich1 = document.querySelector(".affich1");
 const affich2 = document.querySelector(".affich2");
 let prenom = prompt("Veuillez entrer votre prenom :")
