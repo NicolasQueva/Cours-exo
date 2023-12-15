@@ -7,6 +7,6 @@ addition = nbr1 + nbr2
 
 affichage = `<p>Le premier nombre entré est : ${nbr1}</p>`
 affichage += `<p>Le second nombre entré est : ${nbr2}</p>`
-affichage += `<p>L'addition des deux nombres est : ${addition}</p>`
+affichage += `<p>L'addition des deux nombre est : ${addition}</p>`
 
 calcul.innerHTML = affichage
