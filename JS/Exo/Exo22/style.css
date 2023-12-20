@@ -1,0 +1,10 @@
+.card{
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin: 10px;
+    width: 18%;
+}
+
+h5{
+    padding-left: 15px;
+}
