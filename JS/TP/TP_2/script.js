@@ -1,7 +1,7 @@
-// DOM
 const touches = [...document.querySelectorAll('.bouton')];
+const ecranh = document.querySelector('.ecranHaut')
+const ecranb = document.querySelector('.ecranbas')
 const listeKeycode = touches.map(touche => touche.dataset.key);
-const ecran = document.querySelector('.ecran');
 
 document.addEventListener('keydown', (e) => {
     const valeur = e.code;
@@ -19,20 +19,22 @@ const calculer = (valeur) => {
     if (listeKeycode.includes(valeur)) {
         switch (valeur) {
             case 'Backspace':
-                ecran.textContent = "";
+                ecranh.textContent = "";
+                ecranb.textContent = "";
                 break;
             case 'Enter':
-                const calcul = eval(ecran.textContent);
-                ecran.textContent = calcul;
+                const calcul = eval(ecranh.textContent);
+                ecranb.textContent = `= ${calcul} `;
+                console.log(calcul);
                 break;
             default:
                 const indexKeycode = listeKeycode.indexOf(valeur);
                 const touche = touches[indexKeycode];
-                ecran.textContent += touche.innerHTML;
+                ecranh.textContent += touche.innerHTML;
         }
     }
 }
 
 window.addEventListener('error', (e) => {
-    alert('Une erreur est survenue dans votre calcul : ' + e.message)
+    alert(`Une erreur est survenue dans votre calcul : ${e.message}`)
 })
