@@ -20,6 +20,8 @@ if (nbEnfants <= 2) {
 
 revenusImposable = revenus / nbParts
 
+console.log(revenusImposable);
+
 if (revenusImposable >= 10778 && revenusImposable <= 27478) {
     montantImpot = (revenusImposable - 10777) * 0.11
 } else if (revenusImposable >= 27479 && revenusImposable <= 78570) {
