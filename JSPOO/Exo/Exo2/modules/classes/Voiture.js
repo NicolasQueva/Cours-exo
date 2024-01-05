@@ -6,7 +6,7 @@ export class Voiture extends Vehicule {
         this.Clim = Clim
     }
     ToString() {
-       let affich = ``
+
         return `${super.ToString()}, ${this.Clim}`;
 
     }
