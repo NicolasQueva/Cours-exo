@@ -20,6 +20,10 @@ body {
     border-radius: 10px;
 }
 
+h1 {
+    color: white;
+}
+
 .ecran {
     width: 210px;
     height: 100px;
@@ -29,7 +33,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 5px;
+    padding: 10px;
     font-size: 25px;
     flex-direction: column;
 }
@@ -66,18 +70,22 @@ body {
 }
 
 .bouton {
-    border-radius: 5px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 3px #a8a8a8;
+}
+
+.bouton:active {
     box-shadow: 0 2px #a8a8a8;
+    transform: translate3D(1px, 1px);
 }
 
 .boutonsup {
-    border-radius: 5px;
     background-color: orangered;
-    box-shadow: 2px #a8a8a8;
 }
 
 .boutonega {
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(62, 62, 62);
     color: white;
-    width: 6.7rem;
+    grid-column: 3 / span 2;
 }

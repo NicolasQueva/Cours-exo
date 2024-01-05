@@ -4,15 +4,18 @@ const ecranb = document.querySelector('.ecranbas')
 const listeKeycode = touches.map(touche => touche.dataset.key);
 
 document.addEventListener('keydown', (e) => {
-    const valeur = e.code;
+    let valeur = e.code;
     calculer(valeur)
     console.log(valeur);
 })
+touches.forEach((touche) => {
+    touche.addEventListener('click', (e) => {
+        let valeur = e.target.dataset.key;
+        console.log(valeur);
+        calculer(valeur)
 
-document.addEventListener('click', (e) => {
-    const valeur = e.target.dataset.key;
-    calculer(valeur)
 
+    })
 })
 
 const calculer = (valeur) => {
