@@ -1,7 +1,8 @@
-export class Monstre{
-    constructor(type, difficulté, pvm) {
+export class Monstre {
+    constructor(type, pv, niveau) {
         this.type = type
-        this.difficulté = difficulté
-        this.pvm = pvm
+        this.pv = pv
+        this.niveau = niveau
     }
+
 }

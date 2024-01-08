@@ -1,10 +1,9 @@
-export class Joueur{
-    constructor(nom, race, argent, niveau, experience, pvj) {
-        this.nom = nom
-        this.race = race
-        this.argent = argent
-        this.niveau = niveau
-        this.experience = experience
-        this.pvj = pvj
+export class Joueur {
+    constructor(Nom, Race, classe, pv, Niveau) {
+        this.Nom = Nom
+        this.Race = Race
+        this.classe = classe
+        this.pv = pv
+        this.Niveau = Niveau
     }
 }
