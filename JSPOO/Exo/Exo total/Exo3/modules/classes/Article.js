@@ -1,5 +1,3 @@
-import { Client } from "./Client.js";
-
 export class Article{
     constructor(nom, prix, stock) {
         this.nom = nom
