@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>TP-POO-ANNUAIRE</h1>
+    <fieldset>
+        <h2>Liste de Contacts</h2>
+        <table>
+            <thead>
+                <th>Titre</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Date de naissance</th>
+                <th>Téléphone</th>
+                <th>Email</th>
+            </thead>
+            <tbody>
+            <div class="table"></div>
+            </tbody>
+        </table>
+    </fieldset>
+    <fieldset>
+        <div class="AddContact">
+            <input type="radio" id="Mr" value="Mr" name="genre" />
+            <label>Mr</label>
+            <input type="radio" id="Mme" value="Mme" name="genre" checked />
+            <label>Mme</label>
+            <input type="text" id="Nom" placeholder="Nom">
+            <input type="text" id="Prenom" placeholder="Prenom">
+            <input type="date" id="Date">
+            <input type="tel" id="tel" placeholder="Téléphone">
+            <input type="email" id="mail" placeholder="Email">
+            <input type="button" value="Ajouter">
+
+        </div>
+    </fieldset>
+</body>
+<script type="module" src="./modules/script.js"></script>
+
+</html>
