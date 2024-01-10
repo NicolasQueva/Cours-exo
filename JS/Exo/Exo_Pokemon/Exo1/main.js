@@ -1,4 +1,4 @@
-import { fetchPokemonData } from "./util/util.js"
+import { fetchPokemonData } from "./js/util/util.js"
 
 const container = document.querySelector('.card_container')
 const loading = document.getElementById('loading')
@@ -61,7 +61,11 @@ randombtn.addEventListener("click", function () {
 navig.addEventListener("keydown", (e) => {
     if (e.code == 'Enter') {
         const navigV = document.getElementById('navig').value
-        currentItem = navigV
+        if (navigV >= 0 && navigV <= 1016) {
+            currentItem = navigV
+        }else{
+            console.log("Pokemeon Inexistant");
+        }
         console.log(currentItem);
         displayFirst()
     }
