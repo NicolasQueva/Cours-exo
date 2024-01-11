@@ -1,4 +1,4 @@
-import { Pokemon } from "../classe/Pokemon.js"
+import { Pokemon } from " ../classe/Pokemon.js"
 
 //URL de l'api
 const apiUrl = "https://pokeapi.co/api/v2/pokemon/"
