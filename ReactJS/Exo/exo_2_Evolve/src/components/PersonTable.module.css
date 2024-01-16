@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    color: white;
+    width: 500px;    
+    border-radius: 5px;
+}
+th,tr,td {
+    border: 1px solid ivory;
+
+}
+table tr:nth-child(odd) {
+    background-color: black;
+
+}
+
+table tr:nth-child(even) {
+    background-color: grey;
+}
+
+.bodytable td {
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+}
