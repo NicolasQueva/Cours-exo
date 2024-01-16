@@ -1,12 +1,27 @@
+*{
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+table tr:nth-child(odd) {
+    background-color: black;
+    
+}
+
+table tr:nth-child(even) {
+    background-color: grey;
+}
 
 td,
 th {
-    border-collapse:collapse;
     text-align: center;
     width: 800px;
     border: 2px solid black;
     color: black;
     margin: 0px;
+} 
 
-
-}
