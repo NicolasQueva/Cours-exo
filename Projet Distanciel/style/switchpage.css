@@ -1,0 +1,14 @@
+* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#loadimg {
+    width: 50%;
+    height: 803px;
+}
