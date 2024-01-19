@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Mason-Serif";
+    src: url("../ressource/font/MasonSerif\ Regular.ttf ");
+}
+
+* {
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Mason-Serif', 'sans-serif';
+}
+
+#navBarPerso {
+    display: flex;
+    justify-content: center;
+}
+
+#TitlePerso{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+
+    background-color: gray;
+    border-radius: 2px;
+    font-size: large;
+    margin: 10px;
+
+}
