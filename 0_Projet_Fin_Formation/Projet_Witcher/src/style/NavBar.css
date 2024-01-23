@@ -1,0 +1,15 @@
+.NavBar{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+p {
+    display: inline-block;
+}
+
+:link{
+    text-decoration: none
+}

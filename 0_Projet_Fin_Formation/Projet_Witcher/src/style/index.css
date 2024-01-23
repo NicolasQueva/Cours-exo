@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Mason-Serif";
+  src: url("../assets/font/MasonSerif-Regular.ttf");
+}
+
+* {
+  background-color: black;
+  color: white;
+  font-family: 'Mason-Serif', 'serif';
+}
+
+body {
+  margin: 2px;
+  font-size: large ;
+}

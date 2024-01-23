@@ -1,0 +1,44 @@
+#Menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  font-size: medium;
+}
+
+
+#CDPR,
+#Witcher {
+  margin-top: 5px;
+  border: 2px solid gray;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+#CDPR{
+  padding-top: 4px;
+  padding-bottom: 2px;
+  margin-right: 5px;
+}
+
+#Witcher{
+  margin-left: 5px;
+}
+
+#CDPR img {
+  
+  width: 44% ;  
+}
+
+
+#Witcher img {
+  margin-top: 4px ;  
+}
+
+#P1CDPR,
+#P2CDPR {
+  display: flex;
+  flex-direction: column;
+}

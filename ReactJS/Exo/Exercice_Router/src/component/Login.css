@@ -1,0 +1,18 @@
+#login{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    background-color: white;
+    color: black;
+    width: 20%
+}
+
+button{
+    display: block;
+    background-color: gray;
+}

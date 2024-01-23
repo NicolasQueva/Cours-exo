@@ -1,0 +1,25 @@
+#perso {
+    border: 1px solid gray;
+}
+
+#suivant,
+#precedent {
+    background-color: gray;
+    height: 20px;
+}
+
+.navPerso {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    background-color: white;
+    color: black;
+    margin: auto;
+    margin-right: 1px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}

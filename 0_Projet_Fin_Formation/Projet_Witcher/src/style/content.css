@@ -1,0 +1,10 @@
+
+
+header {
+    padding-top: 4px; 
+    margin: auto;
+    border: 3px solid gray;
+    border-radius: 5px;
+    font-family: 'Mason-Serif', 'sans-serif';
+    width: 50%;
+}
