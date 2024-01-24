@@ -23,3 +23,21 @@ input {
     justify-content: end;
     align-items: end;
 }
+
+#ImgPerso {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 275px;
+    height: 415px;
+}
+
+#FichePerso{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr ;
+}
+
+.details{
+    display: grid;
+    grid-column: 2/5;
+}

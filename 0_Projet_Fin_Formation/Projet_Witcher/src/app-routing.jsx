@@ -3,8 +3,8 @@ import {createBrowserRouter} from "react-router-dom"
 import Content from './components/Content';
 import ErrorPage from './components/ErrorPage';
 import App from './App';
-import Personnage from './components/Personnage';
 import Bestiaire from './components/Bestiaire';
+import PersoListe from './components/PersoListe';
 const router = createBrowserRouter([
     {
         path: "/",
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
         },
         {
             path: "/personnage",
-            element: <Personnage />
+            element: <PersoListe/>
         },
         {
             path: "/bestiaire",
