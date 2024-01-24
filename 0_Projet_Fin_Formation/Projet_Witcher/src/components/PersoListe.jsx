@@ -1,7 +1,8 @@
 import React from 'react'
-import Geralt from '../assets/img/Geralt.jpg'
-import Yen from '../assets/img/Yennefer.jpg'
+import Geralt from '../assets/img/Geralt.webp'
+import Yen from '../assets/img/yennefer.webp'
 import Triss from '../assets/img/triss.jpg'
+import Ciri from '../assets/img/Ciri.webp'
 import Personnage from './Personnage'
 
 export default function PersoListe() {
@@ -42,7 +43,7 @@ export default function PersoListe() {
             alias : "Le Lionceau de Cintra / Zireael / L'Enfant de sang ancien",
             age: "21 ans",
             profession: "Sorcelleuse",
-            img: Yen,
+            img: Ciri,
             id: "Ciri",
             story: "",
         },
@@ -63,7 +64,7 @@ export default function PersoListe() {
             age: "Inconnu",
             profession: "Sorceleur",
             img: Yen,
-            id:"Vesimir",
+            id:"Vesemir",
             story: "",
         },
 

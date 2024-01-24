@@ -21,14 +21,20 @@ export default function Personnage(props) {
             seti(i - 1)
         }
     }
-    if (props.liste[0].id == search) {
-        console.log(props.liste.index);
-    }
 
+    const recherche = () => {
+        for (let i = 0; i < props.liste.length; i++) {
+            if (props.liste[i].id == search) {
+                seti(i)
+            }
+
+        }
+    }
+console.log(search);
     let alt = `Image de ${props.liste[i].prenom} ${props.liste[i].nom}`
     return (
         <>
-            <input type="search" className="search" placeholder='Rechercher' onInput={(e) => setsearch(e.target.value)} />
+            <input type="search" className="search" placeholder='Rechercher' onInput={(e) => setsearch(e.target.value)} onKeyDown={(e) => {if (e.key === "Enter")recherche();}} />
             <section id="perso">
                 <article className="navPerso">
                     <button id='precedent' onClick={() => decrementation()} >Perso precedent</button>
