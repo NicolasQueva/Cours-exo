@@ -1,25 +1,26 @@
-#perso {
-    border: 2px solid gray;
+#beast {
+    border: 1px solid gray;
     width: 75%;
-    border-radius: 5px;
     margin: auto;
     margin-top: 3px;
 }
 
-#suivant,
-#precedent {
+#suivantbeast,
+#precedentbeast {
     background-color: gray;
     height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.navPerso {
+.navbeast {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.search {
-    
+.searchb {
+    margin-bottom: 5px;
     background-color: white;
     color: black;
     margin: auto;
@@ -29,7 +30,7 @@
     align-items: end;
 }
 
-#ImgPerso {
+#Imgbeast {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -37,7 +38,7 @@
     height: 415px;
 }
 
-#FichePerso{
+#Fichebeast{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr ;

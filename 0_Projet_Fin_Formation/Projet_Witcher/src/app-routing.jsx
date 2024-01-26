@@ -1,10 +1,11 @@
 import React from 'react'
-import {createBrowserRouter} from "react-router-dom"
+import { createBrowserRouter } from "react-router-dom"
 import Content from './components/Content';
 import ErrorPage from './components/ErrorPage';
 import App from './App';
-import Bestiaire from './components/Bestiaire';
 import PersoListe from './components/PersoListe';
+import ListeLog from './components/ListeLog';
+import BestiaireListe from './components/BestiaireListe';
 const router = createBrowserRouter([
     {
         path: "/",
@@ -16,11 +17,15 @@ const router = createBrowserRouter([
         },
         {
             path: "/personnage",
-            element: <PersoListe/>
+            element: <PersoListe />
         },
         {
             path: "/bestiaire",
-            element: <Bestiaire />
+            element: <BestiaireListe />
+        },
+        {
+            path: "/login",
+            element: <ListeLog />
         }
         ]
 

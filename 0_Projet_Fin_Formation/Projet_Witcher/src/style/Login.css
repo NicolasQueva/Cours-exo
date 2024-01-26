@@ -1,0 +1,29 @@
+#log {
+    border: 2px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 25%;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputlog {
+    grid-column: 3/4;
+    margin: 5px;
+    background-color: white;
+    color: black
+}
+
+.labelog {
+    grid-column: 3/4;
+    
+}
+
+.btn {
+    background-color: gray;
+    grid-column: 3/4;
+}

@@ -1,8 +1,10 @@
 import React from 'react'
 import Geralt from '../assets/img/Geralt.webp'
 import Yen from '../assets/img/yennefer.webp'
-import Triss from '../assets/img/triss.jpg'
+import Triss from '../assets/img/triss.webp'
 import Ciri from '../assets/img/Ciri.webp'
+import Jaskier from '../assets/img/jaskier.webp'
+import Vesemir from '../assets/img/vesemir.webp'
 import Personnage from './Personnage'
 
 export default function PersoListe() {
@@ -53,7 +55,7 @@ export default function PersoListe() {
             alias : "Jaskier",
             age: "42 ans",
             profession: "Barde",
-            img: Yen,
+            img: Jaskier,
             id:"Jaskier",
             story: "",
         },
@@ -63,7 +65,7 @@ export default function PersoListe() {
             nom: "",
             age: "Inconnu",
             profession: "Sorceleur",
-            img: Yen,
+            img: Vesemir,
             id:"Vesemir",
             story: "",
         },

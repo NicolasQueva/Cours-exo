@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../style/Personnage.css'
+
 export default function Personnage(props) {
 
     const [i, seti] = useState(0)
@@ -30,7 +31,6 @@ export default function Personnage(props) {
 
         }
     }
-console.log(search);
     let alt = `Image de ${props.liste[i].prenom} ${props.liste[i].nom}`
     return (
         <>
