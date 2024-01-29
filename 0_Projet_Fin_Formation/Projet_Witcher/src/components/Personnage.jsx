@@ -49,7 +49,7 @@ export default function Personnage(props) {
                         <p>Alias : {props.liste[i].alias}</p>
                         <p>Âge : {props.liste[i].age}</p>
                         <p>Profession : {props.liste[i].profession}</p>
-                        <p>Lore : Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus temporibus maiores unde dolorum, reprehenderit provident quasi, magni deserunt beatae adipisci exercitationem dicta sit nobis dolores illo repellat id officia voluptatem.</p>
+                        <p>Lore : {props.liste[i].story}</p>
                     </div>
 
                 </article>

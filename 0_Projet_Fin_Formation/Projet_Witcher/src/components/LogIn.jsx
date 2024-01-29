@@ -26,6 +26,10 @@ export default function LogIn(props) {
                     navigate("/")
                     window.location.reload()
                     break;
+                } else if (username == localStorage.getItem("Pseudo") && password == localStorage.getItem("Password")){
+                    window.localStorage.setItem("Log", "true")
+                    navigate("/")
+                    window.location.reload()
                 }
             }
         }
@@ -37,6 +41,15 @@ export default function LogIn(props) {
             alert("Veuillez entrer un mot de passe !")
         } else if ((username === "" || username === undefined) && (password === "" || password === undefined)) {
             alert("Veuillez enter un pseudo et un mot de passe ! ")
+        }
+    }
+
+    function newAccount() {
+        if (username != "Admin" || password != "Admin123") {
+            window.localStorage.setItem("Pseudo", username)
+            window.localStorage.setItem("Password", password)
+        } else {
+            alert("Veuillez rentrer un identifiant ou un mot de passe valide !!!")
         }
     }
 
@@ -68,7 +81,7 @@ export default function LogIn(props) {
                 <input type='password' onInput={(e) => setpassword(e.target.value)} required className='inputlog' />
                 <div className="button"></div>
                 {btnlog}
-                <button onClick={() => Nouveau()} className='btn'>Nouveau compte</button>
+                <button onClick={() => newAccount()} className='btn'>Nouveau compte</button>
             </section>
 
         </>
